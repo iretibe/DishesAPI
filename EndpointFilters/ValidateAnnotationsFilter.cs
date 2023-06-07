@@ -1,10 +1,11 @@
 ﻿using DishesAPI.Models;
+using MiniValidation;
 
 namespace DishesAPI.EndpointFilters
 {
     public class ValidateAnnotationsFilter : IEndpointFilter
     {
-        public async ValueTask<object?> InvokeAsync(EndpointFilterInvocationContext context, EndpointFilterDelegate next)
+        public async ValueTask<object> InvokeAsync(EndpointFilterInvocationContext context, EndpointFilterDelegate next)
         {
             var dishForCreationDto = context.GetArgument<DishForCreationDto>(2);
 

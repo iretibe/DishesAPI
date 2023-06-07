@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\PROJECTS\\DishesAPI\\DishesAPI.csproj",
         "projectName": "DishesAPI",
         "projectPath": "C:\\PROJECTS\\DishesAPI\\DishesAPI.csproj",
-        "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SOMAD\\.nuget\\packages\\",
         "outputPath": "C:\\PROJECTS\\DishesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SOMAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -58,6 +62,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "MiniValidation": {
+              "target": "Package",
+              "version": "[0.7.4, )"
             }
           },
           "imports": [
